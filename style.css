@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 10px 0 10px 0;
+
+}
+
+header > a{
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+}
+
+header > button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: green;
+    color: white;
+    font-size: 15px;
+    
+}
+
+main{
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+main img{
+    width: 85vw;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+section{
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+h1{
+   padding: 20px 0 20px 0;
+   font-size: 25px;
+   letter-spacing: 1px;
+
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    
+
+}
+
+.learn-more{
+    padding-left: 20px;
+    color: green;
+    font-size: 22px;
+}
+
+main > button{
+    display: block;
+    width: 35vw;
+    height: 10vh;
+    font-size: 21px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 50% 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+@media screen and (min-width:1360px){
+    header{
+        text-align: left;
+        padding: 10px 0 10px 10px;
+    }
+
+    header > a{
+        letter-spacing: 5px;
+        margin: 0 2px 0 2px ;
+    }
+
+    header > button{
+        cursor: pointer;
+    }
+
+    header > button:hover{
+        background: green;
+        opacity: .8;
+    }
+
+    main{
+        width: 100vw;
+    }
+
+    main > img{
+        width: 25vw;
+        margin-left: 20px;
+        padding-top: 20px;
+        display: inline-block;
+    }
+
+    section{
+        display: inline-block;
+    }
+
+    section > h1{
+        padding-bottom: 50px;
+    }
+
+    section > p{
+        width: 25vw;
+        padding-bottom: 50px;
+    }
+
+    .learn-more{
+        display: block;
+        padding-left: 380px;
+    }
+
+    main > button{
+      display: none;
+    }
+}
